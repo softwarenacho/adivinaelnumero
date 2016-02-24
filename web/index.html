@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel='stylesheet' type='text/css' href='estilo.css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+        <title>Adivina el número</title>
+    </head>
+    <body>  
+        <h1>Juego de adivinar el número</h1>
+        <i>Estoy pensando un número del 1 al 100, intenta adivinarlo</i>
+        <br><br>
+        <form action="Sesion" method="POST"> 
+            <fieldset>
+                <legend> Introduce un número del 1 al 100:</legend><br>
+                <input type="text" name="numero">
+                <input type="hidden" name="nuevo" value="si">
+                <input type="hidden" name="numerosUtilizados" value="">
+                <br><br>
+                <input type="submit" value="Enviar número">
+            </fieldset>
+        </form>
+        <br><br>
+        <p>Nacho Betancourt, 131015</p>
+    </body>
+</html>
